@@ -30,7 +30,7 @@ export default function Home() {
     const data = await res.json();
 
     const user = data.users.find(
-      (u) =>
+      (u: any) =>
         u.username === username &&
         u.password === password &&
         u.role === role

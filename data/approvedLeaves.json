@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1775903011123,
+    "empId": "chann",
+    "type": "Sick",
+    "startDate": "2026-04-10",
+    "endDate": "2026-04-16",
+    "reason": "dfagb",
+    "file": "",
+    "status": "approved"
+  },
+  {
+    "id": 1775903810920,
+    "empId": "chann",
+    "type": "Vacation",
+    "startDate": "2026-04-04",
+    "endDate": "2026-04-05",
+    "reason": "sad",
+    "file": "",
+    "status": "approved"
+  },
+  {
+    "id": 1775903797800,
+    "empId": "chann",
+    "type": "Sick",
+    "startDate": "2026-04-04",
+    "endDate": "2026-04-04",
+    "reason": "SD",
+    "file": "",
+    "status": "approved"
+  },
+  {
+    "id": 1775904743268,
+    "empId": "chann",
+    "type": "Casual",
+    "startDate": "2026-04-29",
+    "endDate": "2026-04-30",
+    "reason": "asf",
+    "file": "",
+    "status": "approved"
+  },
+  {
+    "id": 1776225246574,
+    "empId": "chann",
+    "type": "Sick",
+    "startDate": "2026-04-10",
+    "endDate": "2026-04-14",
+    "reason": "6tui",
+    "file": "",
+    "status": "approved"
+  }
+]

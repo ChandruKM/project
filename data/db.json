@@ -1,0 +1,17 @@
+{
+  "users": [
+    {
+      "username": "chann",
+      "password": "123",
+      "role": "employee",
+      "empId": "chann"
+    },
+    {
+      "username": "mgr",
+      "password": "123",
+      "role": "manager",
+      "empId": "mgr"
+    }
+  ],
+  "leaves": []
+}

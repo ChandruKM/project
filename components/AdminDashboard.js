@@ -51,33 +51,41 @@ export default function AdminDashboard() {
         <p>Pending: {pending}</p>
         <p>Rejected: {rejected}</p>
 
-        {pending > 5 && <p style={{color:"red"}}>⚠ Too many pending requests</p>}
+        {pending > 5 && (
+          <p style={{ color: "red" }}>⚠ Too many pending requests</p>
+        )}
       </div>
 
+      {/* 🔥 EMPTY DIV TO FIX GRID (IMPORTANT) */}
+      <div></div>
+
       {/* ================= REPORTS ================= */}
-      <div className="card reports">
-        <h3>Reports & Analytics</h3>
+      <div className="card reports" style={{ gridColumn: "1 / 3" }}>
+        <center><h3>Reports</h3></center>
 
-        <div className="report-box">
-          <p>Total Requests</p>
-          <h2>{total}</h2>
+        <div className="report-cards">
+
+          <div className="report-box total">
+            <h4>Total Leaves Requested</h4>
+            <p>{total}</p>
+          </div>
+
+          <div className="report-box approved">
+            <h4>Leaves Approved</h4>
+            <p>{approved}</p>
+          </div>
+
+          <div className="report-box pending">
+            <h4>Leaves Pending</h4>
+            <p>{pending}</p>
+          </div>
+
+          <div className="report-box rejected">
+            <h4>Leaves Rejected</h4>
+            <p>{rejected}</p>
+          </div>
+
         </div>
-
-        <div className="report-box">
-          <p>Approved</p>
-          <h2>{approved}</h2>
-        </div>
-
-        <div className="report-box">
-          <p>Pending</p>
-          <h2>{pending}</h2>
-        </div>
-
-        <div className="report-box">
-          <p>Rejected</p>
-          <h2>{rejected}</h2>
-        </div>
-
       </div>
 
     </div>
